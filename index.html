@@ -1,0 +1,766 @@
+<!-- Portions of this project are based on code that is licensed under the MIT License.
+  The original code can be found at (https://codepen.io/ItsCrisDiaz/pen/NWgOZjX).
+ 
+  MIT License
+  
+  Copyright (c) 2023 Cristian Diaz
+  
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to deal
+  in the Software without restriction, including without limitation the rights
+  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+  
+  The above copyright notice and this permission notice shall be included in all
+  copies or substantial portions of the Software.
+  
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  SOFTWARE. -->
+ 
+
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./public/styles.css">
+    <style>
+      
+    </style>
+  </head>
+  <body>
+    <div class="main-header-container mb-3 text-success" id="home">
+      <!-- Navbar -->
+      <nav class="navbar text-success navbar-expand-lg shadow fixed-top" aria-label="Twelfth navbar example">
+        <div class="container-fluid ">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample10">
+            <ul class="navbar-nav">
+              <li class="nav-item mx-4">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item mx-4 ">
+                <a class="nav-link" href="#qualities">Resume</a>
+              </li>
+              <li class="nav-item mx-4">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item mx-4">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item mx-4">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Header -->
+      <div class="container col-xxl-8 col-10 px-4 py-5" id="home">
+          <div class="row flex-lg-row-reverse align-items-center justify-content-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+              <img src="./assets/myself.png" class="d-block mx-lg-auto img-fluid my-image rounded-2" alt="Bootstrap Themes" width="350" height="500" loading="lazy">
+            </div>
+            <div class="col-lg-6 text-center header-text">
+              <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3"><small>Hello, I'm</small><strong> John Kythwen Pamat</strong></h1>
+              <p class="lead text-success text-uppercase">ASPIRING PROGRAMMER</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Qualities -->
+    <div class="container px-4" id="qualities">
+      <h2 class="pb-4 border-bottom text-center fw-light">My <span class="section-title">Qualities</span></h2>
+  
+      <!-- Education -->
+      <div class="row row-cols-1 row-cols-md-1 align-items-md-center g-5 py-5">
+        <div class="col d-flex flex-column align-items-center gap-4">
+          <div class="d-flex flex-column align-items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-mortarboard" viewBox="0 0 16 16">
+                  <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5ZM8 8.46 1.758 5.965 8 3.052l6.242 2.913L8 8.46Z"/>
+                  <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46l-3.892-1.556Z"/>
+              </svg>
+              <h5>Education</h5>
+          </div>
+
+          <div class="card shadow-sm border border-0 text-center">
+            <div class="card-body">
+              <div class="d-flex justify-content-center gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
+                      <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                  </svg>
+                  <h6>Jun 2011 - May 2013</h6>
+              </div>
+              <text class="text-success-emphasis fs-5">Diploma in Information Technology</text>
+              <div class="educ-desc-con mx-5">
+                  <p class="education text-light fw-light fs-6 mt-4 px-5">
+                    Learned a comprehensive understanding of three key areas in software development: Visual Basic, Java, and Web Development (HTML and CSS). 
+                    Through a combination of theoretical lessons, hands-on exercises, and practical projects, I am able to develop the 
+                    necessary skills to design, develop, and deploy software applications.
+                  </p>
+                  <p class="education text-light fw-light fs-6 px-5">
+                    Learned a comprehensive understanding of three key areas in software development: Visual Basic, Java, and Web Development (HTML and CSS). 
+                    Through a combination of theoretical lessons, hands-on exercises, and practical projects, I am able to develop the 
+                    necessary skills to design, develop, and deploy software applications.
+                  </p>
+                  <span class="education text-success-emphasis fs-5">Awards</span>
+                  <ul class="award-list fw-light">
+                    <li><span class="text-success-emphasis fw-normal">3RD PLACER</span> - Tagisan ng Talino 2013, Into Programming - Junior Level Individual Category</li>
+                    <li><span class="text-success-emphasis fw-normal">CERTIFICATE OF RECOGNITION</span> - Tagisan ng Talino 2011, Into Programming - Group Category</li>
+                    <li><span class="text-success-emphasis fw-normal">CERTIFICATE OF RECOGNITION</span> - Tagisan ng Talino 2011, Think Quest - Group Category</li>
+                  </ul>
+              </div>
+              <div class="d-flex-row justify-content-between">
+                  <small class="text-body-secondary">STI Novaliches Academic Center</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="card shadow-sm border border-0 text-center">
+            <div class="card-body">
+              <div class="d-flex justify-content-center gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
+                      <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                  </svg>
+                  <h6>Jun 2011 - May 2013</h6>
+              </div>
+              <text class="text-success-emphasis fs-5">Diploma in Information Technology</text>
+              <div class="educ-desc-con mx-5">
+                <p class="education text-light fw-light fs-6 mt-4 px-5">
+                  Studied "The Complete 2023 Web Development Bootcamp" taught by Angela Yu on Udemy.
+                </p>
+                <p class="education text-light fw-light fs-6 px-5">
+                  Learned the basic syntax and concepts of HTML (HyperText Markup Language) for building the structure of web pages, 
+                  CSS (Cascading Style Sheets) for expressing design and style, and JavaScript for enhancing interactive web elements.
+                </p>
+                <p class="education text-light fw-light fs-6 px-5">
+                  Also covered other aspects of web development. This includes using frameworks like Bootstrap and React, creating responsive designs, 
+                  working with databases such as MongoDB, and performing server-side programming using Node.js and obtained an in-depth knowledge and 
+                  proficiency in web development.
+                </p>
+              </div>
+              <div class="d-flex-row justify-content-between">
+                <small class="text-body-secondary">Udemy</small>
+            </div>
+            </div>
+          </div>
+
+          <!-- Experience -->
+          <div class="d-flex flex-column align-items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-briefcase" viewBox="0 0 16 16">
+              <path d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v8A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5zm1.886 6.914L15 7.151V12.5a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5V7.15l6.614 1.764a1.5 1.5 0 0 0 .772 0zM1.5 4h13a.5.5 0 0 1 .5.5v1.616L8.129 7.948a.5.5 0 0 1-.258 0L1 6.116V4.5a.5.5 0 0 1 .5-.5z"/>
+              </svg>
+              <h5>Experience</h5>
+          </div>
+
+          <div class="col">
+            <div class="row row-cols-1 row-cols-lg-2 row-cols-1 g-3 ">
+              <!-- Telus | Airbnb -->
+              <div class="col d-flex flex-column gap-2">
+                  <div class="card shadow-sm border border-0">
+                      <div class="card-body">
+                          <div class="d-flex gap-2">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
+                                  <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                              </svg>
+                              <h6>April 27, 2023 - March 9, 2023</h6>
+                          </div>
+                          <text class="text-success-emphasis fs-5">Operations CSR II - Travel Account</text>
+                          <div class="d-flex gap-3 pt-3 mb-4">
+                            <p class="card-text text-light p-0 m-0 align-self-end fs-6">
+                              Client:
+                            </p>
+                            <img src="./assets/logo/airbnb-belo.svg" alt="Airbnb Logo">
+                          </div>
+                          <text class="card-text text-light fw-light fs-6 m-0">
+                            Airbnb is an online platform that connects people who want to rent out their properties or spare rooms with travelers seeking accommodations. 
+                            Founded in 2008, Airbnb has become a popular alternat<span id="dots1">...</span><span id="more1">ive to traditional hotels, offering a wide range of unique and 
+                            affordable lodging options in over 100,000 cities worldwide.</span>
+                          </text>
+                          <a class="text-primary-light  d-inline-block" data-bs-toggle="collapse" href="#collapseCard1" role="button" aria-expanded="false" aria-controls="collapseExample" onclick="readMoreFunction(this)" id="myBtn1">read more</a>
+                          <div class="collapse mt-3" id="collapseCard1">
+                            <div class="card card-body p-0 border-0">
+                              <p class="card-text text-light fw-semibold fs-5 pt-3 ps-3 mb-0">My Role:</p>
+                              <ul class="text-light fw-light fs-6 pt-3 mb-3">
+                                <li class="pb-3">
+                                    <span class="my-roles">Reservation Support</span>: Provides assistance with a specific reservation. Answering questions 
+                                    about booking, availability, pricing, cancellation policies and any other concerns related 
+                                    to reservations
+                                </li>
+                                <li class="pb-3">
+                                    <span class="my-roles">Account Management</span>: Guiding and helps troubleshoot account issues such as login problems, 
+                                    account settings, or verification.
+                                </li>
+                                <li class="pb-3">
+                                    <span class="my-roles">Refunds and Disputes</span>: Assisting customers with their refund and dispute for a canceled reservation 
+                                    or other related matters and provide general advice on how to proceed and what steps you can take to 
+                                    resolve the issue.
+                                </li>
+                                <li class="pb-3">
+                                    <span class="my-roles">Policy Clarification</span>: Clarifying Airbnb's policies, terms of service, or community guidelines
+                                </li>
+                                <li class="pb-3">
+                                    <span class="my-roles">Host and Guest Communication</span>: Mediating between host and guest. Providing suggestions if they 
+                                    need guidance on how to communicate with their host or guest, resolve conflicts, or address any 
+                                    issues during the stay.
+                                </li>
+                                <li>
+                                    <span class="my-roles">Safety and Security</span>: Providing general advice on what to look for and how to ensure a safe and 
+                                    secure experience if they have concerns about the safety or security of a listing.
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+
+                          <div class="d-flex justify-content-between align-items-center mt-4">
+                              <small class="text-body-secondary">Telus International Philippines</small>
+                              <img src="./assets/logo/telus.svg" alt="Telus International" style="background-color: white;">
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Alorica | Aetna -->
+              <div class="col d-flex flex-column gap-2">
+                  <div class="card shadow-sm border border-0">
+                      <div class="card-body">
+                          <div class="d-flex gap-2">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
+                                  <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                              </svg>
+                              <h6>November 10, 2020 - January 28, 2022</h6>
+                          </div>
+                          <text class="text-success-emphasis fs-5">Customer Service Representative - Healthcare Account</text>
+                          <div class="d-flex gap-3 pt-3 mb-4">
+                            <p class="card-text text-light p-0 m-0 align-self-end fs-6">
+                              Client:
+                            </p>
+                            <img src="./assets/logo/aetna.svg" alt="Airbnb Logo">
+                          </div>
+                          <text class="card-text text-light fw-light fs-6 m-0">
+                            Silverscript is a Medicare Part D prescription drug plan offered by CVS Health and was acquired by Aetna in 2018. 
+                            It provides prescription drug coverage for individuals who are eligible for Medic<span id="dots2">...</span><span id="more2">are, specifically those enrolled 
+                            in Medicare Part A and/or Part B.</span>
+                          </text>
+                          <a class="text-primary-light  d-inline-block" data-bs-toggle="collapse" href="#collapseCard2" role="button" aria-expanded="false" aria-controls="collapseExample" onclick="readMoreFunction(this)" id="myBtn2">read more</a>
+                          <div class="collapse mt-3" id="collapseCard2">
+                              <div class="card card-body p-0 border-0">
+                                  <p class="card-text text-light fw-semibold fs-5 pt-3 ps-3 mb-0">My Role:</p>              
+                                  <ul class="text-light fw-light fs-6 pt-3 mb-3">
+                                      <li class="pb-3">
+                                        <span class="my-roles">Plan Coverage and Benefits</span>: Answering questions about the coverage and benefits provided 
+                                          by Silverscript, such as prescription drug coverage, formularies, co-pays, deductibles, and other plan details.
+                                      </li>
+                                      <li class="pb-3">
+                                        <span class="my-roles">Enrollment and Eligibility</span>: Helping an individual with enrolling in Silverscript or determining 
+                                          their eligibility for their prescription drug plan, guiding them through the process and providing assistance with enrollment forms, deadlines, 
+                                          and any documentation required.
+                                      </li>
+                                      <li class="pb-3">
+                                        <span class="my-roles">Pharmacy Network</span>: Assisting members with their questions about mail-order pharmacy options and delivery services. 
+                                          Answering inquiries about pharmacies that accept Silverscript, provides a list of participating pharmacies in their area.
+                                      </li>
+                                      <li class="pb-3">
+                                        <span class="my-roles">Prescription Coverage and Claims</span>: Guiding members through the process of filling prescriptions, understanding prescription coverage, 
+                                          co-pays, claims, reimbursement and resolving any issues related to coverage.
+                                      </li>
+                                      <li>
+                                        <span class="my-roles">Formulary and Medication Coverage</span>: Responding to questions about specific medications, their coverage, or formulary tiers including 
+                                          but not limited to which medications are covered and at what cost. Helping members understand any restrictions or prior authorization requirements.
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                          <div class="d-flex justify-content-between align-items-center mt-4">
+                              <small class="text-body-secondary">Alorica Philippines</small>
+                              <img src="./assets/logo/alorica.svg" alt="Alorica Logo" style="background-color: white;">
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- E-Konflux Solutions by LAZADA Group | LAZADA -->
+              <div class="col d-flex flex-column gap-2">
+                <div class="card shadow-sm border border-0">
+                    <div class="card-body">
+                        <div class="d-flex gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
+                                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                            </svg>
+                            <h6>November 2019 - December 2019</h6>
+                        </div>
+                        <text class="text-success-emphasis fs-5">Operations Associate (Chat Support) - E-Commerce</text>
+                        <div class="d-flex gap-3 pt-3 mb-4">
+                          <p class="card-text text-light p-0 m-0 align-self-end fs-6">
+                            Client:
+                          </p>
+                          <img class=" " src="./assets//logo/lazada.svg" alt="Airbnb Logo">
+                        </div>
+                        <text class="card-text text-light fw-light fs-6 m-0">
+                          Lazada is an e-commerce platform that operates in several Southeast Asian countries, including Indonesia, Malaysia, the Philippines, Singapore, 
+                          Thailand, and Vietnam. It is one of the leading onl<span id="dots3">...</span><span id="more3">ine marketplaces in the region, offering a wide range of products from various categories such 
+                          as electronics, fashion, home goods, beauty, and more.</span>
+                        </text>
+                        <a class="text-primary-light  d-inline-block" data-bs-toggle="collapse" href="#collapseCard3" role="button" aria-expanded="false" aria-controls="collapseExample" onclick="readMoreFunction(this)" id="myBtn3">read more</a>
+                        <div class="collapse mt-3" id="collapseCard3">
+                            <div class="card card-body p-0 border-0">
+                                <p class="card-text text-light fw-semibold fs-5 pt-3 ps-3 mb-0">My Role:</p>
+                                
+                                <ul class="text-light fw-light fs-6 pt-3 mb-3">
+                                    <li class="pb-3">
+                                      <span class="my-roles">Product Inquiries</span>: Responding to questions about a specific product listed on Lazada 
+                                        including product specifications, availability, pricing, and other related queries.
+                                    </li>
+                                    <li class="pb-3">
+                                      <span class="my-roles">Order Assistance</span>: Helping customers with their existing order, such as tracking, delivery 
+                                        updates, order modifications, or cancellation. Resolving issues or provide information about the status of their order.
+                                    </li>
+                                    <li class="pb-3">
+                                      <span class="my-roles">Returns and Refunds</span>: Assisting customers in terms of initiating a return or refund request 
+                                        for a product purchased on Lazada, providing instructions, assist with the return procedure, and address any concerns you may have.
+                                    </li>
+                                    <li class="pb-3">
+                                      <span class="my-roles">Account and Payment Issues</span>: Providing assistance to member's facing any challenges related to their Lazada 
+                                        account, such as login problems, payment methods, or billing inquiries and helping them resolve the issue.
+                                    </li>
+                                    <li>
+                                      <span class="my-roles">General Inquiries</span>: Presenting Lazada's policies, promotions, or services and provides relevant 
+                                        information these types of inquiry.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-4">
+                            <small class="text-body-secondary">E-Konflux Solutions by LAZADA Group</small>
+                            <img src="./assets//logo/ekonflux.svg" alt="E-Konflux Solutions Logo">
+                        </div>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- [24]/7.ai | Optus -->
+              <div class="col d-flex flex-column gap-2">
+                <div class="card shadow-sm border border-0">
+                    <div class="card-body">
+                        <div class="d-flex gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
+                                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                            </svg>
+                            <h6>March 2019 - July 2019</h6>
+                        </div>
+                        <text class="text-success-emphasis fs-5">Optus - Fixed Service Tier 1 (Chat Support)</text>
+                        <div class="d-flex gap-3 pt-3 mb-4">
+                          <p class="card-text text-light p-0 m-0 align-self-end fs-6">
+                            Client:
+                          </p>
+                          <img class=" " src="./assets/logo/optus-seek.svg" alt="Airbnb Logo">
+                        </div>
+                        <text class="card-text text-light fw-light fs-6 m-0">
+                          Optus is a telecommunications company based in Australia. It is one of the largest telecommunications providers in the country, 
+                          offering a range of services to both residential and business custo<span id="dots4">...</span><span id="more4">mers. Optus provides 
+                          various telecommunications products and services, including mobile, internet, and television services.</span>
+                        </text>
+                        <a class="text-primary-light  d-inline-block" data-bs-toggle="collapse" href="#collapseCard4" role="button" aria-expanded="false" aria-controls="collapseExample" onclick="readMoreFunction(this)" id="myBtn4">read more</a>
+                        <div class="collapse mt-3" id="collapseCard4">
+                            <div class="card card-body p-0 border-0">
+                                <p class="card-text text-light fw-semibold fs-5 pt-3 ps-3 mb-0">My Role:</p>
+                                
+                                <ul class="text-light fw-light fs-6 pt-3 mb-3">
+                                    <li class="pb-3">
+                                      <span class="my-roles">Billing and Payments</span>: Billing and Payments: Answering questions or issues related to customer's Optus bill, payments, or 
+                                        invoices. Providing information on billing cycles, payment methods, outstanding balances, and help resolve any billing inquiries or concerns.
+                                    </li>
+                                    <li class="pb-3">
+                                      <span class="my-roles">Service and Technical Support</span>: Help customer's troubleshoot and provide technical assistance if they're experiencing issues 
+                                        with their Optus services, such as mobile network, internet, TV, or home phone, guiding you through basic troubleshooting steps or escalate the issue if necessary.
+                                    </li>
+                                    <li class="pb-3">
+                                      <span class="my-roles">Account Management</span>: Facilitate subcriber's inquiries with managing their Optus account, such as updating personal information, changing 
+                                        plans or services, or adding/removing feature and assist them with account-related inquiries and help them make any necessary changes.
+                                    </li>
+                                    <li class="pb-3">
+                                      <span class="my-roles">New Service Inquiries</span>: Accommodate individuals signing up for a new Optus service, such as a mobile plan, home internet, or entertainment 
+                                        package. Provide information about available options, pricing, and help them with the signup process.
+                                    </li>
+                                    <li>
+                                      <span class="my-roles">General Inquiries</span>: Answering other general questions about Optus products, services, promotions, or policies.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-4">
+                            <small class="text-body-secondary">[24]7.ai Philippines</small>
+                            <img src="./assets//logo/247ai.svg" alt="[24]7.ai Logo">
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+              <!-- Convergys | H&R Block -->
+              <div class="col d-flex flex-column gap-2">
+                <div class="card shadow-sm border border-0">
+                  <div class="card-body">
+                    <div class="d-flex gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
+                            <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                        </svg>
+                        <h6>December 2017 - May 2018</h6>
+                    </div>
+                    <text class="text-success-emphasis fs-5">Customer Service Representative - Financial Account</text>
+                    <div class="d-flex gap-3 pt-3 mb-4">
+                      <p class="card-text text-light p-0 m-0 align-self-end fs-6">
+                        Client:
+                      </p>
+                      <img class=" " src="./assets//logo/h&r-block.svg" alt="Airbnb Logo">
+                    </div>
+                    <text class="card-text text-light fw-light fs-6 m-0">
+                      H&R Block is a prominent tax preparation company that was founded by Henry W. Bloch and Richard Bloch in 1955. The company is named after their last name, with the "R" standing for Richard. H&R <span id="dots5">...</span>
+                      <span id="more5">Block provides tax preparation services to individuals and small businesses, helping them navigate the complex process of filing taxes and ensuring compliance with tax laws and regulations.</span>
+                    </text>
+                    <a class="text-primary-light  d-inline-block" data-bs-toggle="collapse" href="#collapseCard5" role="button" aria-expanded="false" aria-controls="collapseExample" onclick="readMoreFunction(this)" id="myBtn5">read more</a>
+                    <div class="collapse mt-3" id="collapseCard5">
+                      <div class="card card-body p-0 border-0">
+                        <p class="card-text text-light fw-semibold fs-5 pt-3 ps-3 mb-0">
+                          My Role:
+                        </p>
+                        <ul class="text-light fw-light fs-6 pt-3 mb-3">
+                          <li class="pb-3">
+                            <span class="my-roles">Card Activation</span>: Assisting customers who have recently received an H&R Block Card, this includes card activation, guiding them through the activation process. Provide instructions and 
+                              troubleshoot any issues that may arise during the activation.
+                          </li>
+                          <li class="pb-3">
+                            <span class="my-roles">Balance Inquiries</span>: Helping customers check the balance on their H&R Block Card, reviewing transaction history and addressing any discrepancies or concerns regarding their card balance.
+                          </li>
+                          <li class="pb-3">
+                            <span class="my-roles">Lost or Stolen Cards</span>: Process reports of a lost or stolen H&R Block Card, assisting them in blocking the card to prevent unauthorized use and guide tem through the process of obtaining 
+                              a replacement card.
+                          </li>
+                          <li class="pb-3">
+                            <span class="my-roles">Cardholder Support</span>: Answering general inquiries with card features and benefits, questions about transaction limits, ATM withdrawals, fees, and other aspects related to their H&R Block 
+                              Card.
+                          </li>
+                          <li>
+                            <span class="my-roles">Disputes and Resolution</span>: Initiate the dispute resolution process for unauthorized transactions, billing errors, or other disputes related to their H&R Block Card, guiding them through 
+                              the necessary steps and work towards a resolution.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center mt-4">
+                      <small class="text-body-secondary">Convergys Philippines</small>
+                      <img src="./assets//logo/convergys.svg" alt="Convergys Logo">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>    
+    </div>
+
+    <!-- This section is based on code that is licensed under the MIT License) -->
+    <!-- Skills --> 
+    <div class="container px-4" id="skills">
+      <h2 class="pb-2 border-bottom text-center pb-4 mt-5 fw-light">My <span class="section-title">Skills</span></h2>
+      <div class="row row-cols-1 row-cols-xl-3 row-cols-lg-3 row-cols-md-2 row-cols-sm-1 align-items-center g-4 py-4">
+        <div class="col skills-col">
+          <div class="skill-card">
+              <img class="card__background" src="./assets//html5.png" alt="html5"/>
+              <div class="card__content | flow">
+                  <div class="card__content--container | flow">
+                      <h2 class="card__title">HTML</h2>
+                      <p class="card__description fw-light">
+                        HTML (Hypertext Markup Language) is the standard markup language used for creating and structuring the content of web pages and applications. 
+                        It provides a set of tags and elements that define the structure, layout, and formatting of the content displayed on a web page.
+                      </p>
+                      <p class="card__description">Level: ⭐⭐⭐⭐</p>
+                  </div>
+              </div>
+          </div>  
+        </div>
+
+        <div class="col skills-col">
+            <div class="skill-card">
+                <img class="card__background" src="./assets//css3.png" alt="css3" 
+                    width="1820" height="2193"/>
+                <div class="card__content | flow">
+                    <div class="card__content--container | flow">
+                        <h2 class="card__title">CSS</h2>
+                        <p class="card__description fw-light">
+                          CSS (Cascading Style Sheets) is a style sheet language used for describing the presentation 
+                          and visual appearance of a document written in HTML or XML (including XHTML). It allows web developers to define 
+                          how the elements of a web page should be displayed, including layout, colors, fonts, and other design aspects.
+                        </p>
+                        <p class="card__description">Level: ⭐⭐⭐⭐</p>
+                    </div>
+                </div>
+            </div>  
+        </div>
+
+        <div class="col skills-col">
+            <div class="skill-card">
+                <img class="card__background" src="./assets//js.png" alt="javascript" 
+                    width="1820" height="2193"/>
+                <div class="card__content | flow">
+                    <div class="card__content--container | flow">
+                        <h2 class="card__title">JavaScript</h2>
+                        <p class="card__description fw-light">
+                          JavaScript is a high-level programming language that is primarily used for adding interactivity and 
+                          dynamic functionality to web pages. It allows web developers to create dynamic content, 
+                          respond to user actions, manipulate and update page elements, and interact with web APIs 
+                          (Application Programming Interfaces).
+                        </p>
+                        <p class="card__description">Level: ⭐⭐⭐⭐</p>
+                    </div>     
+                </div>  
+            </div>
+        </div>
+
+        <div class="col skills-col">
+            <div class="skill-card">
+                <img class="card__background" src="./assets//expressjs.png" alt="expressjs" 
+                    width="1820" height="2193"/>
+                <div class="card__content | flow">
+                    <div class="card__content--container | flow">
+                        <h2 class="card__title">Express JS</h2>
+                        <p class="card__description fw-light" >
+                          Express.js, or simply Express, is a minimalistic and flexible web application framework for Node.js. 
+                          It provides a set of robust features and utilities for building web applications and APIs. 
+                          Express.js is widely used and highly popular among developers due to its simplicity, versatility, and scalability.
+                        </p>
+                        <p class="card__description">Level: ⭐⭐⭐</p>
+                    </div>
+                </div>
+            </div>  
+        </div>
+
+        <div class="col skills-col">
+          <div class="skill-card">
+              <img class="card__background" src="./assets//nodejs.png" alt="nodejs" 
+                  width="1820" height="2193"/>
+              <div class="card__content | flow">
+                  <div class="card__content--container | flow">
+                      <h2 class="card__title">Node JS</h2>
+                      <p class="card__description fw-light" style="font-size: 9.5pt;">
+                        Node.js is an open-source, server-side JavaScript runtime environment built on Chrome's V8 JavaScript engine. 
+                        It allows developers to execute JavaScript code on the server, enabling them to build scalable 
+                        and high-performance web applications. Unlike traditional JavaScript, which runs in the browser, 
+                        Node.js runs on the server and provides a runtime environment for executing JavaScript code outside of a 
+                        browser context.
+                      </p>
+                      <p class="card__description">Level: ⭐⭐⭐</p>
+                  </div>
+              </div>
+          </div>
+        </div>
+
+        <div class="col skills-col">
+            <div class="skill-card">
+                <img class="card__background" src="./assets//bootstrap5.png" alt="bootstrap5" 
+                    width="1820" height="2193"/>
+                <div class="card__content | flow">
+                    <div class="card__content--container | flow">
+                        <h2 class="card__title">Bootstrap</h2>
+                        <p class="card__description fw-light" style="font-size: 10pt;">
+                          Bootstrap is a popular open-source front-end framework used for designing responsive and mobile-first web pages 
+                          and web applications. It provides a collection of pre-built HTML, CSS, and JavaScript components, 
+                          as well as a grid system and styling templates, which simplify the process of creating visually appealing 
+                          and responsive user interfaces.
+                        </p>
+                        <p class="card__description">Level: ⭐⭐⭐</p>
+                    </div>
+                </div>
+            </div>  
+        </div>
+
+        <div class="col skills-col">
+            <div class="skill-card">
+                <img class="card__background" src="./assets//mongodb.png" alt="mongodb" 
+                    width="1820" height="2193"/>
+                <div class="card__content | flow">
+                    <div class="card__content--container | flow">
+                        <h2 class="card__title">Mongo DB</h2>
+                        <p class="card__description fw-light" style="font-size: 10pt;">
+                          MongoDB is a popular open-source, NoSQL (non-relational) database management system. It is designed to store 
+                          and manage large volumes of data in a flexible, scalable, and document-oriented manner. MongoDB departs from 
+                          the traditional relational database model and instead uses a JSON-like document format called BSON (Binary JSON) 
+                          to store data.
+                        </p>
+                        <p class="card__description">Level: ⭐⭐⭐</p>
+                    </div>
+                </div>
+            </div>  
+        </div>
+
+        <div class="col skills-col">
+            <div class="skill-card">
+                <img class="card__background" src="./assets//react.png" alt="reactjs" 
+                    width="1820" height="2193"/>
+                <div class="card__content | flow">
+                    <div class="card__content--container | flow">
+                        <h2 class="card__title">React JS</h2>
+                        <p class="card__description fw-light" style="font-size: 12.5pt;">
+                          React.js, commonly referred to as React, is an open-source JavaScript library for building user interfaces. 
+                          It was developed by Facebook and is widely used for creating interactive and reusable UI components in web 
+                          applications.
+                        </p>
+                        <p class="card__description">Level: ⭐⭐⭐</p>
+                    </div>
+                </div>
+            </div>  
+        </div>
+      </div>
+    </div> 
+
+    <!-- About Me -->
+    <div class="about-container my-5 pb-5" id="about">
+      <div class="container col-xxl-8 px-4 pb-5 pt-3 mt-5">
+        <div class="row flex-lg-row py-5 about-inner-con">
+          <div class="col col-lg-6 col-sm-8 col-8 align-self-center">
+            <img src="./assets/myself.png" class="d-flex mx-lg-auto mx-md-auto img-fluid rounded about-image" alt="Bootstrap Themes" width="350" height="800" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h2 class="pb-2 pb-4 mt-3 display-5 text-body-emphasis">About <span class="section-title">Me</span></h2>
+            <p class="lead text-dark fw-normal">
+              An enthusiastic, keen to details, organized and hard-working employee looking to join in an IT company. I have been working 
+              as a Customer Service Representative with various companies mentioned above and is now looking to take advantage of my skills 
+              in Web Development.</p>
+            <p class="lead text-dark fw-normal">Motivated by passion and a desire to contribute to the advancement of technology, 
+              I have embarked on a journey of self-study and professional development to equip myself with the necessary skills and knowledge 
+              required to thrive in the IT industry. I have completed various online courses, 
+              and continue learning other programming concepts to expand my understanding of IT concepts and gain insights from seasoned 
+              professionals.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="container" id="contact">
+      <h2 class="pb-2 text-center pb-4 mt-5 fw-light">Get <span class="section-title">In Touch</span></h2>
+      <footer class="pt-5">
+        <div class="container text-center border-bottom pb-5">
+          <div class="row row-cols-xl-3 row-col-lg-3 row-cols-md-3 row-cols-sm-1 row-cols-1">
+            <div class="col">
+              <div class="d-flex-row justify-content-md-center ">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                  <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                </svg>
+                <h5 class="pt-2">Email</h5>
+              </div>
+              <text>johnpamat.jp@gmail.com</text>
+            </div>
+
+            <div class="col">
+              <div class="d-flex-row justify-content-md-center gap-5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                  <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                </svg>
+                <h5 class="pt-2">Phone</h5>
+              </div>
+              <text>+63 9480788460 (Primary)</text> <br>
+              <text>+63 9974192611 (Secondary)</text>
+            </div>
+
+            <div class="col">
+              <div class="d-flex-row justify-content-md-center gap-5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                  <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                  <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                </svg>
+                <h5 class="pt-2">Address</h5>
+              </div>
+              <text>Block 12 Lot 9, Lopez Compound, Manuyo Uno, Las Piñas City, Metro Manila, Philippines, 1744</text>
+            </div>
+          </div>
+        </div>
+
+        <div class="container text-center mt-5 mb-5" style="width:40%">
+          <div class="grid  row-gap-4 row">
+              <!-- facebook -->
+              <div class="col">
+                <a class="link-body-emphasis" href="https://www.facebook.com/john.pamat/" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                    </svg>
+                </a>
+              </div>
+
+              <!-- Twitter -->
+              <div class="col">
+                <a class="link-body-emphasis" href="https://twitter.com/jangKyth" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                    <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                  </svg>
+                </a>
+              </div>
+
+              <!-- LinkedIn -->
+              <div class="col">
+                <a class="link-body-emphasis" href="https://www.linkedin.com/in/john-kythwen-pamat-a3a853168/" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                  </svg>
+                </a>
+              </div>
+
+              <!-- Instagram -->
+              <div class="col">
+                <a class="link-body-emphasis" href="https://www.instagram.com/jangkyth/" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                  </svg>
+                </a>
+              </div>
+
+              <!-- Telegram -->
+              <div class="col">
+                <a class="link-body-emphasis" href="https://t.me/Jang0603" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>
+                  </svg>
+                </a>
+              </div>
+
+              <!-- Github -->
+              <div class="col">
+                <a class="link-body-emphasis" href="https://github.com/jangkyth" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                  </svg>
+                </a>
+              </div>
+          </div>
+        </div>
+        <p class="text-center my-1 fs-6 text-secondary fw-lighter pb-4">Copyright © 2023 All rights reserved | 
+          This portfolio is made with 
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+              </svg> 
+          by John Pamat.
+        </p>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="./public/index.js" type="text/javascript"></script>
+  </body>
+</html>
